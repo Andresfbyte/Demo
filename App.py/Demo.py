@@ -9,7 +9,7 @@ disp_button= st.button('construir diagrama de dispersion')
 if hist_button: # al hacer clic en el boton 
     # escribir un mensaje 
     st.write('Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
-    # crear un histograma
+    # crear un histogramgiga
     fig = px.histogram(car_data, x='odometer') 
     
     #mostrar un grafico plotly interactivo 
